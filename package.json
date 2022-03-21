@@ -1,0 +1,19 @@
+{
+  "name": "POC-octokit-graphql-fetch-contrib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aurelien-brabant/POC-octokit-graphql-fetch-contrib.git",
+  "author": "abrabant <abrabant@student.42.fr>",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
