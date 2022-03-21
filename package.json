@@ -6,14 +6,18 @@
   "author": "abrabant <abrabant@student.42.fr>",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "format": "prettier --write *.js"
   },
   "license": "MIT",
   "dependencies": {
+    "@octokit/graphql": "^4.8.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3"
   },
   "type": "module",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.0"
   }
 }
